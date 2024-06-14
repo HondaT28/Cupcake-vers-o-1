@@ -1,0 +1,319 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 6.2em;
+  line-height: 0.8;
+  color: #FF748C;
+  font-style: italic;
+  font-family: 'Raleway';
+}
+h2{
+  color: #ffffff;
+  display: flex;
+  background-color: rgb(154, 85, 245);
+  padding: 30px;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  height: 30px;
+  justify-content: space-between;
+}
+h3{
+  font-size: 2.2em;
+  line-height: 0;
+  color: #FF748C;
+  font-style: italic;
+  font-family: 'Raleway';
+}
+.home{
+  color: darkgrey;
+  cursor: pointer;
+}
+
+.cupcakes{
+  flex-grow: 1;
+  background-color:#FF748C;
+  padding:20px;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  right: 0;
+  left: 0;
+  height: 170px;
+}
+/*
+.Landing_text{
+  font-size: 6.2em;
+  line-height: 0.1;
+  color: rgb(255, 162, 178);
+  font-style: italic;
+}
+.Craving_sugar{
+  font-size: 2.2em;
+  line-height: 0.1;
+  color: rgb(255, 162, 178);
+  font-style: italic;
+  justify-content: flex-start;
+}*/
+.Create_new{
+  background-color: rgb(37, 68, 109);
+  color: #FF748C;
+  font-size: small;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  /*padding-left: 230px;
+  padding-right: 230px;*/
+
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 90px;
+}
+
+form{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+label{
+  display: flex;
+  justify-content: flex-start;
+}
+
+input{
+  border: none;
+}
+.escrever{
+  background-color: rgb(37, 68, 109);
+  border-bottom: 1px solid #FF748C;
+}
+
+.cupcake_default{
+  background-color: white;
+  padding: 30px;
+  padding-bottom: 50px;
+  height: 80px;
+  width: 120px;
+  border-radius: 10px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  position: relative;
+  font-family: 'Raleway';
+
+}
+
+.cupcake_desconto{
+  background: linear-gradient(0deg, rgba(255, 116, 140, 0.4), rgba(255, 116, 140, 0.4)), #7AFB78;
+  padding: 30px;
+  padding-bottom: 50px;
+  height: 80px;
+  width: 120px;
+  border-radius: 10px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  position: relative;
+  font-family: 'Raleway';
+}
+
+button{
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  height: 70px;
+}
+
+.botao2{
+  position: absolute;  
+  left: 520px;
+  top: 335px;
+  
+}
+
+.cup{
+  position: absolute;
+  width: 170px;
+  height: 47px;
+  left: calc(50% - 170px/2 + 2px);
+  top: 148.95px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 47px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+h4{
+  font-family: 'Raleway';
+  font-size: 30px;
+  line-height: 8px;
+
+  position: absolute;
+  top: 90px;
+}
+h5{
+  font-family: 'Raleway';
+  font-size: 30px;
+  line-height: 8px;
+
+  position: absolute;
+  top: 100px;
+}
+
+
+.desconto{
+/* -30% */
+position: absolute;
+right: 0px;
+top: 12px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 10px;
+/* identical to box height */
+color: #D9D9D9;
+}
+
+.retangulo_compra{
+  position: absolute;
+  width: 476px;
+  height: 590px;
+  left: 31px;
+  top: 125px;
+  bottom: 10px;
+
+  display: flex;
+  justify-content: center;
+  /* Sugar pink */
+  background: #FF748C;
+}
+
+.cupcake_compra{
+  background-color: white;
+  padding: 30px;
+  padding-bottom: 50px;
+  
+  height: 100px;
+  width: 120px;
+  border-radius: 10px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: 'Raleway';
+
+  position: relative;
+  top: 167px;
+}
+
+.preco{
+  /* 15R$ */
+position: absolute;
+top: 370px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 96px;
+line-height: 113px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+
+.retangulo_descricao{
+  /* Rectangle 7 */
+  position: absolute;
+  width: 742px;
+  height: 590px;
+  left: 560px;
+  top: 125px;
+/* Um pequeno bolo */
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 113px;
+
+color: #000000;
+
+
+
+  /* Soft Blue */
+  background: #8ECAE6;
+}
+
+.quantidade{
+  width: 80px;
+  height: 12px;
+  border-radius: 5px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+
+  background-color: white;
+  color: #FF748C;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  isolation: isolate;
+  
+  position: absolute;
+  width: 220px;
+  height: 56px;
+  left: 280px;
+  top: 350px;
+  
+}
+
+select{
+  background-color: white;
+  color: black;
+
+  width: 220px;
+  height: 40px;
+
+  border-radius: 0;
+  border-color: white;
+  cursor: pointer;
+}
